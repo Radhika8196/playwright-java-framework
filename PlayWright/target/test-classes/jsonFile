@@ -1,0 +1,8 @@
+{
+  "goods": {
+    "id": 101,
+    "name": "Sumsung",
+ 	"price" : 100
+  },
+  "status": "available"
+}
