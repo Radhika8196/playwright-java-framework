@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="34.392" tests="4" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="36.689" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -14,7 +14,7 @@
     <property name="user.country" value="US"/>
     <property name="-DsuiteXmlFile" value="/playwrightpractice/testng.xml"/>
     <property name="sun.boot.library.path" value="/Users/manasvimannaru/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.x86_64_21.0.10.v20260205-0638/jre/lib"/>
-    <property name="sun.java.command" value="/Users/manasvimannaru/eclipse-workspace/playwrightpractice/target/surefire/surefirebooter-20260406032120974_3.jar /Users/manasvimannaru/eclipse-workspace/playwrightpractice/target/surefire 2026-04-06T03-21-20_824-jvmRun1 surefire-20260406032120974_1tmp surefire_0-20260406032120974_2tmp"/>
+    <property name="sun.java.command" value="/Users/manasvimannaru/eclipse-workspace/playwrightpractice/target/surefire/surefirebooter-20260406090148072_3.jar /Users/manasvimannaru/eclipse-workspace/playwrightpractice/target/surefire 2026-04-06T09-01-47_936-jvmRun1 surefire-20260406090148072_1tmp surefire_0-20260406090148072_2tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/manasvimannaru/eclipse-workspace/playwrightpractice/target/test-classes:/Users/manasvimannaru/eclipse-workspace/playwrightpractice/target/classes:/Users/manasvimannaru/.m2/repository/com/microsoft/playwright/playwright/1.58.0/playwright-1.58.0.jar:/Users/manasvimannaru/.m2/repository/com/google/code/gson/gson/2.13.2/gson-2.13.2.jar:/Users/manasvimannaru/.m2/repository/com/google/errorprone/error_prone_annotations/2.41.0/error_prone_annotations-2.41.0.jar:/Users/manasvimannaru/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/manasvimannaru/.m2/repository/com/microsoft/playwright/driver/1.58.0/driver-1.58.0.jar:/Users/manasvimannaru/.m2/repository/com/microsoft/playwright/driver-bundle/1.58.0/driver-bundle-1.58.0.jar:/Users/manasvimannaru/.m2/repository/org/testng/testng/7.12.0/testng-7.12.0.jar:/Users/manasvimannaru/.m2/repository/org/slf4j/slf4j-api/2.0.16/slf4j-api-2.0.16.jar:/Users/manasvimannaru/.m2/repository/org/jcommander/jcommander/1.83/jcommander-1.83.jar:/Users/manasvimannaru/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/manasvimannaru/.m2/repository/org/apache/commons/commons-lang3/3.14.0/commons-lang3-3.14.0.jar:/Users/manasvimannaru/.m2/repository/org/apache/logging/log4j/log4j-core/2.22.1/log4j-core-2.22.1.jar:/Users/manasvimannaru/.m2/repository/org/apache/logging/log4j/log4j-api/2.22.1/log4j-api-2.22.1.jar:/Users/manasvimannaru/.m2/repository/org/slf4j/slf4j-simple/2.0.17/slf4j-simple-2.0.17.jar:"/>
@@ -32,7 +32,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="apple.awt.application.name" value="ForkedBooter"/>
-    <property name="surefire.real.class.path" value="/Users/manasvimannaru/eclipse-workspace/playwrightpractice/target/surefire/surefirebooter-20260406032120974_3.jar"/>
+    <property name="surefire.real.class.path" value="/Users/manasvimannaru/eclipse-workspace/playwrightpractice/target/surefire/surefirebooter-20260406090148072_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="21.0.10+7-LTS"/>
@@ -61,7 +61,7 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="invalidLogin_wrongPassword" classname="tests.LoginTest" time="2.242">
+  <testcase name="invalidLogin_wrongPassword" classname="tests.LoginTest" time="2.109">
     <system-out><![CDATA[
 		
 		        Your password is invalid!
@@ -69,7 +69,7 @@
 		      
 ]]></system-out>
   </testcase>
-  <testcase name="invalidLogin_wrongUsername" classname="tests.LoginTest" time="1.267">
+  <testcase name="invalidLogin_wrongUsername" classname="tests.LoginTest" time="1.003">
     <system-out><![CDATA[
 		
 		        Your password is invalid!
@@ -77,7 +77,7 @@
 		      
 ]]></system-out>
   </testcase>
-  <testcase name="invalidLogin_emptyFields" classname="tests.LoginTest" time="0.531">
+  <testcase name="invalidLogin_emptyFields" classname="tests.LoginTest" time="0.426">
     <system-out><![CDATA[
 		
 		        Your username is invalid!
@@ -85,7 +85,7 @@
 		      
 ]]></system-out>
   </testcase>
-  <testcase name="verifyLogin" classname="tests.LoginTest" time="0.661">
+  <testcase name="verifyLogin" classname="tests.LoginTest" time="1.04">
     <system-out><![CDATA[
 		        You logged into a secure area!
 		        

@@ -2,48 +2,48 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-04-06T03:21:41 PDT" name="Playwright Test Suite" finished-at="2026-04-06T03:21:55 PDT" duration-ms="13496">
+  <suite started-at="2026-04-06T09:02:10 PDT" name="Playwright Test Suite" finished-at="2026-04-06T09:02:24 PDT" duration-ms="14473">
     <groups>
     </groups>
-    <test started-at="2026-04-06T03:21:41 PDT" name="Fims UI Tests" finished-at="2026-04-06T03:21:55 PDT" duration-ms="13496">
+    <test started-at="2026-04-06T09:02:10 PDT" name="Fims UI Tests" finished-at="2026-04-06T09:02:24 PDT" duration-ms="14473">
       <class name="tests.LoginTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@48ae9b55]" started-at="2026-04-06T03:21:22 PDT" name="setup" finished-at="2026-04-06T03:21:41 PDT" duration-ms="19791" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@48ae9b55]" started-at="2026-04-06T09:01:49 PDT" name="setup" finished-at="2026-04-06T09:02:10 PDT" duration-ms="20898" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:tests.LoginTest@48ae9b55]" started-at="2026-04-06T03:21:41 PDT" name="beforeTest" finished-at="2026-04-06T03:21:45 PDT" duration-ms="3757" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:tests.LoginTest@48ae9b55]" started-at="2026-04-06T09:02:10 PDT" name="beforeTest" finished-at="2026-04-06T09:02:14 PDT" duration-ms="4687" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="invalidLogin_wrongPassword()[pri:1, instance:tests.LoginTest@48ae9b55]" started-at="2026-04-06T03:21:45 PDT" name="invalidLogin_wrongPassword" finished-at="2026-04-06T03:21:47 PDT" duration-ms="2243" status="PASS">
+        <test-method signature="invalidLogin_wrongPassword()[pri:1, instance:tests.LoginTest@48ae9b55]" started-at="2026-04-06T09:02:14 PDT" name="invalidLogin_wrongPassword" finished-at="2026-04-06T09:02:16 PDT" duration-ms="2081" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidLogin_wrongPassword -->
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:tests.LoginTest@48ae9b55]" started-at="2026-04-06T03:21:47 PDT" name="beforeTest" finished-at="2026-04-06T03:21:49 PDT" duration-ms="1445" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:tests.LoginTest@48ae9b55]" started-at="2026-04-06T09:02:17 PDT" name="beforeTest" finished-at="2026-04-06T09:02:18 PDT" duration-ms="1863" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="invalidLogin_wrongUsername()[pri:2, instance:tests.LoginTest@48ae9b55]" started-at="2026-04-06T03:21:49 PDT" name="invalidLogin_wrongUsername" finished-at="2026-04-06T03:21:50 PDT" duration-ms="1282" status="PASS">
+        <test-method signature="invalidLogin_wrongUsername()[pri:2, instance:tests.LoginTest@48ae9b55]" started-at="2026-04-06T09:02:18 PDT" name="invalidLogin_wrongUsername" finished-at="2026-04-06T09:02:19 PDT" duration-ms="986" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidLogin_wrongUsername -->
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:tests.LoginTest@48ae9b55]" started-at="2026-04-06T03:21:50 PDT" name="beforeTest" finished-at="2026-04-06T03:21:52 PDT" duration-ms="1748" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:tests.LoginTest@48ae9b55]" started-at="2026-04-06T09:02:19 PDT" name="beforeTest" finished-at="2026-04-06T09:02:21 PDT" duration-ms="1598" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="invalidLogin_emptyFields()[pri:3, instance:tests.LoginTest@48ae9b55]" started-at="2026-04-06T03:21:52 PDT" name="invalidLogin_emptyFields" finished-at="2026-04-06T03:21:52 PDT" duration-ms="536" status="PASS">
+        <test-method signature="invalidLogin_emptyFields()[pri:3, instance:tests.LoginTest@48ae9b55]" started-at="2026-04-06T09:02:21 PDT" name="invalidLogin_emptyFields" finished-at="2026-04-06T09:02:21 PDT" duration-ms="416" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidLogin_emptyFields -->
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:tests.LoginTest@48ae9b55]" started-at="2026-04-06T03:21:52 PDT" name="beforeTest" finished-at="2026-04-06T03:21:54 PDT" duration-ms="1695" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:tests.LoginTest@48ae9b55]" started-at="2026-04-06T09:02:21 PDT" name="beforeTest" finished-at="2026-04-06T09:02:23 PDT" duration-ms="1637" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="verifyLogin()[pri:4, instance:tests.LoginTest@48ae9b55]" started-at="2026-04-06T03:21:54 PDT" name="verifyLogin" finished-at="2026-04-06T03:21:55 PDT" duration-ms="659" status="PASS">
+        <test-method signature="verifyLogin()[pri:4, instance:tests.LoginTest@48ae9b55]" started-at="2026-04-06T09:02:23 PDT" name="verifyLogin" finished-at="2026-04-06T09:02:24 PDT" duration-ms="1029" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@48ae9b55]" started-at="2026-04-06T03:21:55 PDT" name="tearDown" finished-at="2026-04-06T03:21:55 PDT" duration-ms="198" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@48ae9b55]" started-at="2026-04-06T09:02:24 PDT" name="tearDown" finished-at="2026-04-06T09:02:25 PDT" duration-ms="309" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

@@ -1,3 +1,4 @@
 utils/ConfigReader.class
 tests/BaseTest.class
+tests/InputsTest.class
 tests/LoginTest.class
