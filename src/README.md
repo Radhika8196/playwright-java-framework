@@ -8,7 +8,7 @@
 
 ## Features
 - Login automation (valid & invalid scenarios)
-- Config management using Singleton pattern
+- Config management
 - Clean framework structure
 
 ## How to Run
