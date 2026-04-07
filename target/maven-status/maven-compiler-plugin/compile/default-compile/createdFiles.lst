@@ -1,3 +1,4 @@
+pages/RadioBtns.class
 pages/InputsPage.class
 utils/PlaywrightFactory.class
 pages/LoginPage.class
