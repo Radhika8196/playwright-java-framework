@@ -7,7 +7,7 @@
 - Page Object Model (POM)
 
 ## Features
-- Login automation (valid & invalid scenarios)
+- UI automation (valid & invalid scenarios)
 - Config management
 - Clean framework structure
 
